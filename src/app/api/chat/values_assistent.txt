@@ -1,0 +1,9 @@
+From the attached file or files, I need you to create data points the fit the required JSON schema.
+Schema: {
+  date: Date;
+  value: number;
+}
+The date be in ISO 8601 format in local time so there is no need to add a timezone specifier.
+Where data is missing I need you to ask the user back for the missing data.
+If the year is not specified in the date then it should always be the year %s.
+If there is no need for further clarifications, I need you to return it in a Markdown format and no other text except the JSON data.
